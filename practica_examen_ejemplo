@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Pàgina Web Denis</title>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Web Denis 03</h1>
+        <div>
+            <img src="img/hola.png" alt="Logo">
+        </div>
+        <nav>
+            <a href="inici.html">Inici</a> |
+            <a href="precentacio.html">Presentació</a> |
+            <a href="practiques.html">Pràctiques</a> |
+            <a href="cv.html">CV</a> |
+            <a href="mapa-web.html">Mapa web</a>
+        </nav>
+    </header>
+
+    <!-- Formulario de contacto -->
+    <section>
+        <h2>Contacta amb nosaltres</h2>
+        <form action="submit-form.php" method="post">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+            <br><br>
+            
+            <label for="correu">Correu electrònic:</label>
+            <input type="email" id="correu" name="correu" required>
+            <br><br>
+            
+            <label for="motiu">Motiu:</label>
+            <select id="motiu" name="motiu" required>
+                <option value="Consul">Consulta</option>
+                <option value="feedback">Feedback</option>
+                <option value="altres">Altres</option>
+            </select>
+            <br><br>
+            
+            <label for="missatge">Missatge:</label>
+            <textarea id="missatge" name="missatge" rows="4" required></textarea>
+            <br><br>
+            
+            <button type="submit">Envia</button>
+        </form>
+    </section>
+
+    Artículos relacionados
+    <aside>
+        <h3>Articles relacionats</h3>
+        <ul>
+            <li><a href="article1.html">5 consells per millorar la teva productivitat</a></li>
+            <li><a href="article2.html">Com gestionar el teu temps de manera eficient</a></li>
+            <li><a href="article3.html">Eines digitals per treballar des de casa</a></li>
+        </ul>
+    </aside>
+
+    Pie de página 
+    <footer>
+        <p>&copy; 2024 Web Denis</p>
+        <nav>
+            <a href="politica-privacitat.html">Política de privacitat</a> |
+            <a href="contacte.html">Contacte</a>
+        </nav>
+    </footer>
+
+</body>
+</html>

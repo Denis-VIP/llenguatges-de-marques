@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prectica 01</title>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="img/imagen.jpeg" alt="" >
+        </div>
+        <div class="header-xarxes">
+            <a href="https://www.linkedin.com/NOMUSUARI" target="_blank">
+                
+             <img src="img/logo link.png" alt="Logo Linkedin">
+            </a>
+            <a href="https://x.com/?lang=en" target="_blank">
+                
+               
+                <img src="img/xjjx.webp" alt="Logo twitter">
+            </a>
+            
+        </div>
+        <nav>
+            <a href="inici.html">Inici</a>
+            <a href="precentacio.html">Precentacio</a>
+            <a href="practiques.html">Practiques</a>
+            <a href="cv.html">CV</a>
+            <a href="inici.html">Inici</a>
+
+            
+        </nav>
+        
+        </div>
+    
+        <div></div>
+
+</body>
+</html>
